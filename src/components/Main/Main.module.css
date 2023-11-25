@@ -29,6 +29,7 @@
 .time {
    width: 100%;
    font-size: 60px;
-   margin-top: 10px;
    text-align: center;
+   margin-top: 10px;
+   line-height: 0;
 }
