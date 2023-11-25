@@ -1,0 +1,34 @@
+.mainContainer {
+   height: 100vh;
+   background-image: url("../../images/background.png") !important;
+   background-size: cover;
+   background-position: center center;
+   background-repeat: no-repeat;
+}
+
+.text {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   flex-wrap: wrap;
+
+}
+
+.text h1 {
+   font-size: 290px;
+   color: #ffe500;
+}
+
+.text h2 {
+   padding-top: 30px;
+   font-size: 60px;
+   line-height: 100%;
+}
+
+.time {
+   width: 100%;
+   font-size: 60px;
+   margin-top: 10px;
+   text-align: center;
+}

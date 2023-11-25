@@ -1,0 +1,11 @@
+.container {
+   display: grid;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+
+.container h2 {
+   font-size: 100px;
+   color: #ffe500;
+}
