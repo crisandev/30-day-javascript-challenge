@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./DrumKit.module.css";
 import { characterKey } from "./util/js/consts";
-import { keydown, playSound } from "./util/js/play";
+import { playSound } from "./util/js/play";
 
 const DrumKit = () => {
    return (
