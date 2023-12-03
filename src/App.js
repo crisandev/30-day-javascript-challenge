@@ -1,11 +1,11 @@
 import "./App.css";
-import DrumKit from "./components/AllProjects/1DrumKit/DrumKit";
 import Main from "./components/Main/Main";
 import Projects from "./components/Projects/Projects";
 import StarAnimation from "./components/StarAnimation/StarAnimation";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import React from "react";
+import projects from "./js/projects";
 
 const HomeComponent = () => {
    return (
@@ -22,7 +22,9 @@ function App() {
       <BrowserRouter>
          <Routes>
             <Route path="/" element={<HomeComponent />} />
-            <Route path="project" element={<DrumKit />} />
+            {projects.map((p, i) => {
+               return <Route key={i} path={p.path} element={p.component}></Route>;
+            })}
          </Routes>
       </BrowserRouter>
    );

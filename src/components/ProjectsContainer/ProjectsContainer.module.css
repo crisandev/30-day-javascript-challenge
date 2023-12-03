@@ -1,5 +1,27 @@
-.example {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.project {
+   background-color: rgb(44, 44, 44);
+   margin: 10px;
+   border-radius: 10px;
+   padding-bottom: 20px;
+}
+
+.image {
+   max-width: 300px;
+   margin-bottom: -10px;
+}
+
+.project h4 {
+   font-size: 35px;
+}
+
+.project a {
+   text-decoration: none;
+   color: #ffe500;
 }

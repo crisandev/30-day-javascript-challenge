@@ -10,7 +10,7 @@ const Main = () => {
          const hour = currentDateObj.getHours();
          const minutes = currentDateObj.getMinutes();
 
-         const formattedDate = `${hour}: ${minutes > 10 ? minutes : "0" + minutes}`;
+         const formattedDate = `${hour}: ${minutes > 9 ? minutes : "0" + minutes}`;
 
          setCurrentDate(formattedDate);
       }
