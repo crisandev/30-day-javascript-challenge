@@ -5,7 +5,7 @@ import { playSound } from "./util/js/play";
 
 const DrumKit = () => {
    return (
-      <>
+      <div className={styles.container}>
          <div className={styles.keys}>
             {characterKey.map((c, i) => {
                return (
@@ -23,7 +23,7 @@ const DrumKit = () => {
             })}
          </div>
          <script src="./util/js/play.js"></script>
-      </>
+      </div>
    );
 };
 

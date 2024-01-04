@@ -8,7 +8,6 @@ const projects = [
    { title: "Drum Kit", path: "drum-kit", component: <DrumKit />, img: image },
    { title: "Drum Kit", path: "drum-kit", component: <DrumKit />, img: image },
    { title: "Drum Kit", path: "drum-kit", component: <DrumKit />, img: image },
-   { title: "Drum Kit", path: "drum-kit", component: <DrumKit />, img: image },
 ];
 
 export default projects;
